@@ -1,19 +1,23 @@
-# vuejs-with-docker
+# Frontend with VueJS
 
-## Project setup
+### Registry from Docker Hub
 ```
-npm install
-```
-
-### Compiles and hot-reloads for development
-```
-npm run serve
+docker pull hadrianmh/frontend-with-vuejs:1.0.0
 ```
 
-### Compiles and minifies for production
 ```
-npm run build
+docker run -d 8081:80 hadrianmh/frontend-with-vuejs:1.0.0
 ```
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+### Manual setup
+```
+git clone https://github.com/hadrianmh/frontend-with-vuejs.git
+```
+
+```
+docker build -t hadrianmh/frontend-with-vuejs:1.0.0
+```
+
+```
+docker run -d 8081:80 hadrianmh/frontend-with-vuejs:1.0.0
+```
