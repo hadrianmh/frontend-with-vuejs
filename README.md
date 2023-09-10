@@ -15,6 +15,10 @@ git clone https://github.com/hadrianmh/frontend-with-vuejs.git
 ```
 
 ```
+npm update
+```
+
+```
 docker build -t hadrianmh/frontend-with-vuejs:1.0.0
 ```
 
